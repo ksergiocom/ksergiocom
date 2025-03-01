@@ -1,0 +1,10 @@
+/* Clase inicial (elemento invisible) */
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+/* Clase que se aplica cuando el elemento es visible */
+.fade-in-visible {
+    opacity: 1;
+}
