@@ -1,8 +1,8 @@
 # So you decided to get weird
 
-```
 ![Codewars](https://www.codewars.com/users/ksergiocom/badges/small)
 
+```
 
 * '.................@@. @@...............' *
 * '...............*.      @..............'*
