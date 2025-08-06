@@ -1,7 +1,8 @@
 # So you decided to get weird
 
 ```
-https://www.codewars.com/users/ksergiocom/badges/large
+![Codewars](https://www.codewars.com/users/ksergiocom/badges/small)
+
 
 * '.................@@. @@...............' *
 * '...............*.      @..............'*
