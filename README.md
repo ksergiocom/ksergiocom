@@ -36,5 +36,5 @@ Aplicación que utiliza sockets para comunicar pedidos en tiempo real a través 
 ### [ksergio.com](https://www.ksergio.com)  
 Página web estática que funciona como plantilla para una landing page sencilla, elegante y funcional.
 
-### [JiggermenRoca.com](https://www.jiggermenroca.com)  
-Página web 
+### [Jiggermenorca.com](https://www.jiggermenorca.com)  
+Página web estática con naviación completamente en JS vanilla, con un diseño personal.
