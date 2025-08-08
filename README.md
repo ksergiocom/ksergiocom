@@ -26,7 +26,3 @@
 
 ```
 
-[pedidosqr.com](https://www.pedidosqr.com)  
-[noticiasweb.info](https://www.noticiasweb.info)  
-[ksergio.com](https://www.ksergio.com)  
-[Jiggermenorca.com](https://www.jiggermenorca.com)  
