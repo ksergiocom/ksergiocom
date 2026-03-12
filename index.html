@@ -1,53 +1,73 @@
 <!doctype html>
 <html lang="es">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ksergio.com</title>
     <style>
-        
-        html, body {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            background-color: #000; 
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-            align-items: center;
-            justify-content: center;
-            overflow: hidden; 
-        }
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background-color: #000;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+      }
 
-        a{
-            text-decoration: none;
-            color: white;
-        }
+      body {
+        margin: 1rem;
+      }
 
-        a:hover{
-            color: red;
-            text-decoration: underline;
-        }
+      * {
+        color: white;
+        list-style-position: inside;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: monospace;
+      }
 
-#pp {
-    font-family: monospace;
-    font-size: clamp(0.3rem, 1vw, 3rem); 
-    
-    line-height: 1.1;
-    white-space: pre;
-    margin: 0;
-    color: white;
+      a {
+        color: white;
+        cursor: pointer;
+        font-size: 1.5rem;
+      }
 
-    max-width: 100vw;
-    overflow: hidden;
-    text-align: center;
-}
+      a:hover {
+        color: greenyellow;
+        text-decoration: underline;
+      }
+
+      p {
+        color: #c5c5c5;
+        font-size: 1.5rem;
+      }
+
+      #pp, .ascii {
+        font-family: monospace;
+        font-size: clamp(0.3rem, 1.1vw, 5rem);
+
+        line-height: 1.1;
+        white-space: pre;
+        color: white;
+
+        max-width: 100vw;
+        min-height: 51em;
+        overflow: hidden;
+        text-align: center;
+      }
+
+      h1,
+      h2 {
+        margin-top: 1rem;
+      }
     </style>
-</head>
-<body>
-
-<a href="https://github.com/ksergiocom"><pre>https://github.com/ksergiocom</pre></a>
-<pre id="pp">%%@@%%@@%@@%@@@@@@@@@%%@%%%%%@@@@@%%%%%%@%%%%%%%%%%%###%####+##%%%%%%#%%%%%%%%%%#%%%%@%%%@@@@@%%@@%%@@@@@%@%%@%+@@@@@@@@@@@@@%%%%@@@@%%@@%@%@@@@%@@@%@@
+  </head>
+  <body>
+    <pre id="pp" class="ascii">
+%%@@%%@@%@@%@@@@@@@@@%%@%%%%%@@@@@%%%%%%@%%%%%%%%%%%###%####+##%%%%%%#%%%%%%%%%%#%%%%@%%%@@@@@%%@@%%@@@@@%@%%@%+@@@@@@@@@@@@@%%%%@@@@%%@@%@%@@@@%@@@%@@
 @%%@%%@%@@%%@@@@@@@%@%@%@@@@%@#%@%%%%@%%%%%%%%%%%%%%#%%%%%%#%%%%%%+%%%%%%%%%%%%%%%%@%%%%%%%%%%%@@@@%@%@@@@@%%%@@@@@%@@@@%@@@@@@@%%%#%%%@%%%##@%%@@@=@@%
 %%%%@%@%%@%@@@@%@%%@@@@%@@@%@@@%%@%@@%%@%@%%%%+%%%%#%#%%%%%%#%%%%%%%%%#%%%%%%%%%%%%@%@%%%%%%%%%%%%%@%%%%%%%%%#%@%@@@@@@@@@@@@%@@%%%@%%#%#%%%##%%%@@@@%@
 %%%%%%@@@%%%@@@@%@%%%#%@%%@@%@@%%%%%#%%%%%%%%%%%%%%#%%%%%%%%%%%%%%%#%%%%%#%%###%%@%%@%@%%%%%%%%@%%@%%%%%%%%%%%%%#@@@@@@@@%%%@@@@@@@%@@@@%%%%@@%%@@@@%%@
@@ -92,10 +112,140 @@
 @@@@@@@@@@@%@%@@@@%@#@@@%@%%@@@@@%%@%%%@%@@@@@@@@@@                                                             @@@@@@@@%@@@%@@%%%@%%%%%%%%%%%%%%%%%%@%
 @@@@@@@@@@@#@@@@@@#@@@@@@%@@%@@@@@@%%@%%@@@@@@@@@@                                                             .@@@%@@@%@%@@@@@@@@%@%@@%%@%%#%#%%@@@@@@
 @@@#%@@@@@@@@@@%@@@@#@@@@@@@@@%@@%@@@@@@@@@@@@@@#                                                              .@@@@@@@@@@@@@@#@@@@*%%%%%@@@@%@%%@@@@@@
-%@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@#@@@@@@@@@@@@@@                                                                @@@@%@@@@%@@@@@@@@@@@@@@@%@@%%@%@@@@@@@%</pre>
+%@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@#@@@@@@@@@@@@@@                                                                @@@@%@@@@%@@@@@@@@@@@@@@@%@@%%@%@@@@@@@%</pre
+    >
+    <a href="https://github.com/ksergiocom">https://github.com/ksergiocom</a>
+    <h1>¡Hola mundo!</h1>
+    <p>
+      Bash, acrónimo de "Bourne Again Shell", es mucho más que un simple intérprete de comandos; es el estándar de facto en sistemas Unix y Linux desde 1989. Fue creado por Brian Fox como una mejora de la original sh de Stephen Bourne. Una de sus curiosidades más potentes es el uso de "brace expansion", que permite generar listas de strings complejas en una sola línea. A diferencia de otros lenguajes, en Bash casi todo es un string por defecto y los espacios son críticos: un espacio de más puede convertir una asignación en un error de ejecución. Además, Bash introdujo el historial de comandos y el autocompletado con tabulador, herramientas que hoy consideramos básicas pero que revolucionaron la productividad en la terminal. Es capaz de manejar señales del sistema y procesos en segundo plano de forma nativa. Aunque existen shells más modernas como Zsh o Fish, Bash sigue siendo el lenguaje universal para la automatización de servidores y despliegues en la nube debido a su ubicuidad y estabilidad.
+    </p>
+    <pre class="ascii">
+:......::::::......................:::::::::::::::-:::::----::-:::::::::--------::::----::-:::::------==++===-::::::.:.....::..::-=-=-:::-:-=
+:::::::--------::::::::::::::::::::::::::::--:::::::::::-::::::::--:-:::--:::::::::::::::::::::::--------=---::::::::::..:::::-====------==--
+-::::::::::::::::::::.:::.:::..:::::.::::::::::::::..:::-:::::---------::::::::::.:::::::::::::::-::::::::.:::------:::::::::::::-===+++=+*++
+::--:::.:::::::::::::::::.:.....:::.:::::::.:.::::::::::::::-:::::::::::::........:..::::--=---:::::::::::::------:::::--:--=#+=*#**==++=++=+
+----:::::::::..::...........:..:..........:::...:::--::::::::::::::::::::::::..:::::::::---:-::::::::--::::::---+++#*==---=+#%%*++=*#*++=---:
+-::::::...::::::.........:::..:.::::::::::::::.::::::::::::::::::::::::::::::::::...::-::::....:.....:::::::::-----==-::::-=+%%%#+---=----:::
+::::::::.:........::::::::::-:----::::::::-:::::::--:::-:::::::::::::::.:::-:::::.....:::::--:::::::::::::::::::::::::::::--:----------=#+-::
+----:--::::::::::::::::::::-:::----::-:--::::::::::::::::-:::::..:..:::::::::::::::::::::::-:::::::::::::::::-:::::::::::::::::::-:---:----:-
+-:-::-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-:::::::::::::::::::::::::::::::::::::::::::::::::::-::-:::::--::-----
+::::::::::...::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-:::--:-::::::::::::::::::::::::::::::::::::::::::::::::::.:------
+......::::::::::::::::::::::::::::::::::::::-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::.::::..::::::::::::
+..:::::::::::-----::::::::::::::--:::::+%*:::.:::::::::::::-::::::::::::::::::::::::....:..::::..:::::::::::::::::..:.::.:...:::.:.:::.:.:.::
+.::::::::::-:-::::::::::++%@=::-:----**+**#:::::::-:::::::::::::::....::::::.:.:...........:::...::::.:...::..:....:..:..-:..:......:::::...:
+:::::::.:::::::::....:..:*+==*@-----+*+*@@*-::::::-::::::::::::::::.......::.:.:.:..::...::::::.::..::::::::.:.::.::..::.:::::.:::..:..::::.:
+:::::::::-::::::..:::::::-#++++**##+*%+#@@*=:::::::::::::::::.:.........:::.:::::::::..::::::::........:::.........::.::.:::::.:....:...--...
+:..:::::::.....::..::.....-+**##*##*#@##@@*-::..:.::...:::::::.::......:::::::-::::::::::::.::.......::............::..::::::...::..:...:....
+::::..::.::...::::.::::::::+%**###%#%#%@@@#--:-:::::.::::::::::::::.::::.:.:::..............:.........::......:........::::.::::::..::.::..::
+:....:......::::.::::-::-::=#**##%%%##%#%%#***==---:::::::::::--::::::::::::.::::.::....:.:::.::::............:.::::::::::::::::::::::::.....
+.:::::::::::::::::::.:.:.::=*#@#@%@%@@@%##**@%%##****++=+=====+====-====++***#####%#*=:::.:.......:.....:::..:...:.:............:............
+.:::-:::--:-:::::::--::::::::%@@%%@@@@%#*+#%%@@%%####*####*####*#*#*####*#%#%%@%%@###%##+--::.::::..:....::.:..:.::..............:....:....::
+:-:::::::::::::::::::-:-:::::-#*##%%@*-==+#%@@@@@@@%%%@@%%%%#%%**#####*#%%##%%%%@%#%%%####*+=-::...::.:...:.....:............................
+::::...:....:::.:::::::::-::::-+**+#+-==+**@@%@@@@@@@@%@@@%%%#%#%%%%#*##**#%#%@@**%@@@%%%@%#**==-::..-:::.........................:.........:
+::::::::-:::::::-::::::::::::::@@@--=+++*+#%%%%@@@@@@@@@@@@@%%%%%%###*%%#**###%####%%%#%%#%%**+++++-:...:-........:...........::..:.:.-:.....
+:.::::::::-:::::::::.:::::::::::--:-=+#*##**#@@%@@@@@@@%@@@%%@%%####%#@@%%##*#***#%#@%%%#%###**+++*+**-::.-...........:....::..:..:.......:..
+::::-::::::::::.........-.........::-=+***+%*#%%%@@@@@@@@@@*####%###%%%@%#*#*#%#*%@@@@@@%%##**+++#**###%#*+=:...:.......:......-:::..........
+:::::::::::...........:.....::....::---=++++%#%%%%@@@@@@@%%*%*#**#*####%##******#%@@@@@@%####***++#######%#*+:.....:.:.......-:..:..:........
+...::::.............:......:......:::---+*+@#%#%%%%%@@@@%%**##%*####******#*####%%%%%@%%%%%%#***++*########*#**+**=-::.......................
+.......:.:........:...............:.::--==#****#%@@%%@@%%#*#*%#%%%%%#*+*#**##**##@#%%@@%@%@%#%##***#%%#%####**#*****++*=-::.:...:............
+..............:.....:.................:::--=+*###%@@@@@%%##**#@%%####********########@@@%@@%%#%%%%#*#%%%###########****+===-::...............
+............................::.....:.::::::-=++##%%@@@%@%%%%##*#%###*****###*#*###*#*#*%@%@#@%##%@%%#%%%#%###%#%#**##*##*+++=-::.............
+::......:.:.*.:.......::........:...:.....:.==+*#%@@@@@%%%%%%###%#####****+*****#*#*****@#%%@%@%@%%%%%%%#%%%#%%%####%#%#####*+=--::..........
+...........:..........:..:..........::.....=@%%%*%@@@@%+==+=+*****+++==--*#%#%%%%%%*==+*%%@@@%%%@@@@%%@%%%%%##%#%##%%###%#****+==--:::.......
+..........................................@@@@@@*%@@@@#......:::::.......:+##@@%@@@=:.::=#%%@@@@@@@@@%=-+++*%%%%@%#%%###%##**+++===-::.......
+.........................................%@@@@+.+@@@@%*:.....--......-....:+#%%@@@@+....::-*%#@@@@@@@@@#....::=--+##%#%###+*===-----:........
+.........................................@@@%#::*@%@%%=-:..:.:..............=#%%@@@*........:.-#%@@@@@@%%%:.........:-:-+++:-:::::::::.......
+..........................................*%@@@-#@@@%%:.......................+%%%@@+.............:+#%@%@@@+............:...:.............:..
+............................................%@@@@@@@%*.........................*%%%@@=................+#@%@%-....:...:..:.:.::::.::.::..::...
+..............................................@@@@@@#..............:-:.........:@@%@@*.:::::::--::------:#+@#--:::::::::::::.::..::...:.:....
+................................................@@@@+....:::::::::-----:-------------::--:::::::::::::::::::::::::.:::.......................
+........................................:::::::-@@@@=--::::::::::::::::::::::::::::::::::::::::::::::::::::..:....................:..........
+...........::..........................:::::::::::::::::::::::::::::...:::::.....:....:.........:............::-.:.........:.................
+...................................................................................:..:....................................:.................
+.............................................................................................................................................
+....................................................................................:........................................................
+.............................................................................................................................................
+.............................................................................................................................................
+.................................................................:.:.........................................................................
+.............................................................................................................................................
+.............................................................................................................................................
+.............................................................................................................................................
+................:............................................................................................................................
+</pre
+    >
+    <p>
+      Los zorros son cánidos fascinantes conocidos por su gran inteligencia y capacidad de adaptación. Aunque el zorro rojo es el más común, existen especies adaptadas a entornos extremos, como el zorro ártico, que soporta temperaturas de hasta -50°C. A diferencia de otros cánidos, los zorros son animales solitarios que no viven en manadas. Poseen bigotes en sus patas y rostro que les ayudan a orientarse, y sus pupilas verticales les otorgan una visión nocturna similar a la de los gatos. Son capaces de saltar un metro de altura y utilizan el campo magnético de la Tierra para cazar con precisión.
+    </p>
+    <h2>¿Parece una buena banda?</h2>
+    <pre class="ascii">
+%%%%%%%%%%%%%%%%%%%%%%%%%#########################%%%%%%%%%%%%######################################****#**********************************####******
+%%%%%%%%%%%%%%%%%%%%%%%%%%%########################%%%%%%%%%%%%#############################***#*****************************************************
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%################################%%############################**********************************************************
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%#################################################################********************************************************
+%%%%%%%%%%%%%%%%%%%%%%%%%%##%%##%###################################%#####################***********************************************************
+%%%%%%%%%%%%%%%%%%%%%%%%%%%###%%%%%%#####################################################************************************************************
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%##%##################%%%##########################****************************************************************
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%######################%%#########################*****************************************************************
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%##############################################********************************************************************
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#################%######################*******************************************************************
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#########################################******************************************************************
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#%###################################*********************************************************************
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#%%%#################################***********************************************************************
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%####################################***********************************************************************
+%%%%%%%%%%%%%%%%%%%%%%#%%#%%%%%%%###############################################***************************************************************+**+++
+%%%%%%%%%%%%%%%%%%%%%%%%%%#####################################################*******************************************************+*+**+++*++++++
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%##################################################*******************************************************+*+++++++++++
+%%%%%%%%%%%%%%%%%%%%############################################################****************************************************+*+++++++++++++++
+%%%%%%%%%%%%#%%%%%%%%%#######%%################################################+=*************************************************+++++++++++++++++++
+%%%%%%%%%%%%%%%%%%%%%%%%###%%%%%###############################---=######=--+----:--#*****************************************+****+***++**++=+=+++++
+%%%%%%%%%%#%%%%%%%%%%%%#%%%%%%%%%%%###########################:=*---*#######*--=--:--********************************************######****+**+++++*#
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#----*###############-:::---#######*-::::-:-#****************************#******#*######*+*#***********#####
+%%%%%%%%%%%%%%%%%%%%#%%%%%%%%%%%%%%%%%%%%%%%%%==+:-::*+%%%%%##:::::::#####*##*-:::--##***#%%%%%%%%%%%%%%%#%---%%%%#########%%%###**#****####*########
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-::::*#=%%%%%+**+####%%%%%%%%==+######+%%%%%%%%%%%%:::::**-%%%%%#####%%%%#%%%######################::
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%:::+***::#%%%%%%*##+%%%%%%**##*=###*#*#%#%%%%%%%+::::::%%%%%%%%%%%%##***#################%%%%%%##-:
+%%%%%#%%#%*%%#%%%#%%%%%%#%%*%%#%%%%%%%%%%%%%%%%%%%*+*****=#%%%%%%%%%:+%%%%%%##%%%%%%:-+*=#%%%%%#%*+:::::%%%=%%%%%%#%#%%########%##=+****#*#%#*#%%%%%=
+*######+*##*%+*%##**#%%*##*++*#*#*+***#********#%%%%%=+++#%%%%%%%%%%%-*****%%%%%%%%%%-:+*****#*+++*++++###%-+#+%++***+%#-#-%#++**#--==%-%+-%%%=**+%##
+##*#%#%%-:-#%%%%%###%#%%%%%#%*%%%%%%%++%%%%%%%%%%%%%%%-+%%%%%%%%%%%%%==%%#%%%%%%%%%%%%*:+#*####*###%%%%+:+*%**##%*%%#+#%%*#*%%#*%%----%%%%%%%%%%%##%%
+:-%%%%#+::-#%%%%%##%%%%*#%%%%**##%#*%%%%%%*##+%%%%%%%%%%%%%%%%%%%%%%%-+*%%%%%%%%%%%%%%%-=+*=#%%%%%%%%%%%%-+*%%##%=%#%%%%#%%%%%%%%%::+%-=-%%%%%%%%%%%%
+%%%%#%%-%%%%+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-++%%%%%%%%%%%%%%%%--=+%%%%%%%%%%%%%%-*%%%%%%%%%%%%%%%%%%%%%%%%%%%%*%%###%%%%%%%
+%%%%%%=%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%+-=%%%%%%%%%%%%%%%%=:==%%%%%%%%%%%%%-=*%%%%#%%%%%%%%%%%%%%#%%%%%%*%%%%%%%%%#%%%
+%%%%%=-%%%%%%=%%%%#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*:=%%%%%%%%%%%%%%%%%:-=+%%%%%%%%%%%%%-=%%%%#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%*=-%%%%%%-%%%%%+=**%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%:=%%%%%%%%%%%%%%%%%+--=%%%%%%%%%%%%%%-+%%%%%%%%%%#%%%%%%%%%%%%%+%%%##%%%%%%%=%
+%%%%%*-=%%%%%***#%%%%%%%%%%%%%%%%#%%%%%%%%%%-%%%%%%%%-%%%%%%%%%%%%%%%%%==%%%%%%%%%%%%%%%%%*+-=%%%%%%%%%%%%%%-=%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#%%-%
+%%%%%%-%%%%%%%%%###=*+%##%%%%%%%%%%%%%%%%%%=+#%%%%%%%-%%%%%%%%%%%%%%%%%=-%%%%%%%%%%%%%%%%#*+-=#%%%%%%%%%%%%%-=%%%%%%%#%%%%%%%%#%%#%%%%%%%%%%%%%%%%%-+
+#*##%%+%%%%%-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-+++%%%%%%%+%%%%%%%%%%%%%%%%%+-+%%%%%%%%%%%%%%%#*+-==%%%%%%%%%%%%%==%%%%%%#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%:
+*%%%#**+-*-##%%%=*+=*%%%%%%#%##%%%#%%%%%%%=++*%%%%%%%=%%%%%%%%%%%%%%%%%+-+%%%%%%%%%%%%%%%%#*:=+%%%%%%%%%%%%%+-%%%%%%%%%%%%%%%%%%%%%%%%%%###%%%#%+*#%:
+%%%%%%#%%%%%%%%%%%%**%#%*%%%%%%#%%*%%%%%%--++%%%%%%%%:%%%%%%%%%%%%%%%%#+-==%%%%%%%%%%%%%%##**-=%%%%%%%%%%%%%+-+#+%%%%%%#%%%%%*%%%%#%%%%%%%%%%%%%%#%%#
+%##%%#%%%#%%%%%%*%%%##%%%%%%+%%%%#%%%%%%%---+%%%%%%%%-%%%%%%%%%%%%%%%%*+--:%%%%%%%%%%%%%%##*%-==%%%%%%%%%%%%*-+%*%%##%%%%%%%**#%%##%#%*#%%%*##%%%%%%%
+*#%%%%%%%%%%%%%*+*%%%%%%%%%%%#%%%%%%%%%%%-:-%%#%%%%%%-=%%%%%%%%%%%%%%%#=--::%%%%%%%%%%%%%###%-+-%%%%%%%%%%%%*%=%%%%%%%###%%%#%#**%######*##%##%%%#%%#
+%%%%%+#%%%%#%%%%%**%%*%%%%%%%%%%%%%%%%%%%-:-%%%%%%%%%%:%%%%%%%%%%%%%%%%=::::%%%%%%%%%%%%%%##%-=:%%%%%%%%%%%%#%-%%%%%%#*##%%%%#+****=*%%%%#*%%%%%%###%
+%%%*##=+%%*%%%%%#%%%%%%%#%%%%%%%*#*#*%%%+%%%%%%%%%%%%%-*%%%%%%%%%%%%%%%+*=::-%%%%%%%%%%%%%##*%=:%%%%%%%%%%%%#%##%%%%*###%%%%###%###%=%%%%%%#=+#%#++*%
+%%%%%%%%%%%%%%%%%%%%%%%%%%#*%%%%%%*%%=*%=%%%%%%%%%%%%%-+%%%%%%%%%%%%%%%+%=%#%%%%%%%%%%%%%%#%=%-%%%%%%###**%%%%%%%%%%%%%%%%*%%*%*%%%%%%%%%%%%%%%%%%%%%
+%%#%%%%%%%%%#++**#%%%%%%%%%%%%%%%%#%%%+#%%%%%%%%%%%%%%%%%%%%#%###%%%%%%*%-%%%%%%%%%%%%%%%%%%##%%%%%##=%#==-+#%%%%%%%%%+#%%%%%%%#%%#%%%%#%%%%%%%%%%%%%
+%%**###%**%%%%%%%%%%%%*%%%%%-+%%%%*+**%%%%%%%%%%%%#+##%##%%%#######%%%%**%%%%%#%%#%%#%%%%%%-%%%%%%%-::%%%-:-%%%%+*%%%%%%%%%%%%%#%%%%**###%#%%%%%%%%++
+%%%%%%%%%%*#+=%%#%##%#%%%#%%%%%%%%######%######%%#-::%%=-#%%=%##*###%%%=%%%%%%%%%%####%%%%%=#%%%%%%-::%----##%%%%%%%%%%%%%%%%%%%%%*%%%%+%%%%%%%%%%%%%
+*%%%%%%%%%%%%%%%%%%%%%*%%%%%%%%%%%%%%%%%%%%%%%%%*%:::%%%=:-%%%%#*#*#%%++%#%%%%%%%%%**###%%++%%%%%%%%%=++%%#%%%%%%%++++%%%%%%**+***=+%%%%%%%*%##%%+++%
+%%%%%%%%%%%%#%%%%%%%%%%#########%%######*#*#**#*-:-:%+#%-%%%%%%#-:+#%%-=+%%%%%%%%%%%-:-#%#=+=%%%#%%%%=*%%%%%#%%%%%%%%%%%#%%%%%%%%%%##%%%%%%%%%%##%%#%
+#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-----%*--#%%%%%%%%+*::::-*:--%%%%%%%%%%%%%%%%%%%%%%%%#%%%%%%%%%%%#==#%**%%%%%%%%%%%%#
+%%%*%%%%%%%%%%%%%%%%%%%%%%#%%%%%%%%%%#%%%%%%%%%%%%%%%%%%%%%%#+--=:--%%%%%%%%%%%%##%+=#*--#%%++%%%%%%%%%%%%#=+%%%%%%%%%%%%%%%%%%%%%%%%%+=**##%%%%%%#*%
+%%%%%%+=%%%%%%%%%#%%%%%%%%%%=**+*###%%%%##%%%*=%###*#####*=*%*##%%%%%#*####%%%%%#**+%%%%%%%%%%##%%%%%%%%%%%%%%%%%%%%%%%#%%%%%%%%%%%%#*#***==#%%%%%%%%
+=*#%%%%%%%%%%%%%%%%%%##%=#%%%%%+%%#==%%%=#%%%%%%%%%#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#%%%%*+*+*%%+%%%%%%#*%%%%%%%%%%%%%%%%%%%%%%%%%*++%%*%%%%%%%%%%%%%%%%
+%%%%#=+=#%%*+=*+%%%%%%++#####%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%##%%%%%%%%%%%%%%%%%*##%*++%%%%%%%%%%%%
+*+*##%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#*%*#%%%%%%#%%*%%%%%%%%%%%%%%%%%%%%%==###%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%###%*%%%###+*+**++*%%%%%%%%%%</pre
+    >
+    <p>
+Los pingüinos son aves marinas no voladoras que se encuentran casi exclusivamente en el hemisferio sur, a excepción del pingüino de las Galápagos. Aunque no vuelan por el aire, son maestros del vuelo subacuático, alcanzando velocidades asombrosas gracias a sus alas transformadas en potentes aletas rígidas. El pingüino emperador es la especie más grande, llegando a medir hasta un metro con veinte centímetros de altura y pudiendo sumergirse a profundidades de más de quinientos metros, permaneciendo bajo el agua hasta veinte minutos sin respirar.
 
-<script>
-    let org = `%%@@%%@@%@@%@@@@@@@@@%%@%%%%%@@@@@%%%%%%@%%%%%%%%%%%###%####+##%%%%%%#%%%%%%%%%%#%%%%@%%%@@@@@%%@@%%@@@@@%@%%@%+@@@@@@@@@@@@@%%%%@@@@%%@@%@%@@@@%@@@%@@
+Un dato fascinante es su sistema de camuflaje llamado contra-sombreado: su espalda negra se confunde con el fondo marino oscuro cuando se ve desde arriba, mientras que su vientre blanco se mezcla con la claridad del cielo y el hielo cuando un depredador los mira desde abajo. A pesar de vivir en entornos gélidos, no se congelan gracias a una glándula especial que secreta un aceite impermeabilizante que extienden por sus plumas con el pico. Además, poseen una capa de grasa subcutánea muy gruesa que actúa como aislante térmico.
+
+En cuanto a su comportamiento social, muchas especies de pingüinos son monógamas y regresan con la misma pareja año tras año. Un detalle curioso es que los pingüinos de Adelia utilizan piedras como moneda de cambio para construir sus nidos; estas piedras son tan valiosas que es común ver a individuos robando piedras de los nidos vecinos cuando nadie mira. Los pingüinos papúa son los nadadores más rápidos, alcanzando los treinta y seis kilómetros por hora.
+
+A diferencia de la mayoría de las aves, los pingüinos mudan todas sus plumas a la vez en un proceso llamado muda catastrófica, durante el cual no pueden entrar al agua para alimentarse y deben esperar en tierra hasta que su nuevo traje impermeable esté listo. Para beber, han evolucionado con una glándula supraorbital que filtra el exceso de sal de su sangre, permitiéndoles ingerir agua de mar y luego estornudar o sacudir el exceso de sal por sus fosas nasales.
+
+Finalmente, los pingüinos tienen una rodillas reales, aunque no lo parezca debido a que están ocultas bajo sus plumas y capas de grasa, lo que les da ese caminar tan característico. Su audición es excelente y pueden reconocer la llamada única de su pareja o de sus crías entre miles de individuos en colonias extremadamente ruidosas. Son animales extremadamente resilientes que han logrado colonizar algunos de los entornos más hostiles del planeta Tierra mediante adaptaciones biológicas únicas.
+    </p>
+    <script>
+      let org = `%%@@%%@@%@@%@@@@@@@@@%%@%%%%%@@@@@%%%%%%@%%%%%%%%%%%###%####+##%%%%%%#%%%%%%%%%%#%%%%@%%%@@@@@%%@@%%@@@@@%@%%@%+@@@@@@@@@@@@@%%%%@@@@%%@@%@%@@@@%@@@%@@
 @%%@%%@%@@%%@@@@@@@%@%@%@@@@%@#%@%%%%@%%%%%%%%%%%%%%#%%%%%%#%%%%%%+%%%%%%%%%%%%%%%%@%%%%%%%%%%%@@@@%@%@@@@@%%%@@@@@%@@@@%@@@@@@@%%%#%%%@%%%##@%%@@@=@@%
 %%%%@%@%%@%@@@@%@%%@@@@%@@@%@@@%%@%@@%%@%@%%%%+%%%%#%#%%%%%%#%%%%%%%%%#%%%%%%%%%%%%@%@%%%%%%%%%%%%%@%%%%%%%%%#%@%@@@@@@@@@@@@%@@%%%@%%#%#%%%##%%%@@@@%@
 %%%%%%@@@%%%@@@@%@%%%#%@%%@@%@@%%%%%#%%%%%%%%%%%%%%#%%%%%%%%%%%%%%%#%%%%%#%%###%%@%%@%@%%%%%%%%@%%@%%%%%%%%%%%%%#@@@@@@@@%%%@@@@@@@%@@@@%%%%@@%%@@@@%%@
@@ -140,37 +290,41 @@
 @@@@@@@@@@@%@%@@@@%@#@@@%@%%@@@@@%%@%%%@%@@@@@@@@@@                                                             @@@@@@@@%@@@%@@%%%@%%%%%%%%%%%%%%%%%%@%
 @@@@@@@@@@@#@@@@@@#@@@@@@%@@%@@@@@@%%@%%@@@@@@@@@@                                                             .@@@%@@@%@%@@@@@@@@%@%@@%%@%%#%#%%@@@@@@
 @@@#%@@@@@@@@@@%@@@@#@@@@@@@@@%@@%@@@@@@@@@@@@@@#                                                              .@@@@@@@@@@@@@@#@@@@*%%%%%@@@@%@%%@@@@@@
-%@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@#@@@@@@@@@@@@@@                                                                @@@@%@@@@%@@@@@@@@@@@@@@@%@@%%@%@@@@@@@%`
+%@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@#@@@@@@@@@@@@@@                                                                @@@@%@@@@%@@@@@@@@@@@@@@@%@@%%@%@@@@@@@%`;
 
-    const pp = document.getElementById('pp');
-    let i = 0;
+      const pp = document.getElementById("pp");
+      let i = 0;
 
-    setInterval(() => {
-        let jaja = "HolaNeo.Yosoyelarquitecto.Soyelcreadordematrix.Testabaesperando.Tienesmuchaspreguntasyaunqueelprocesohaalteradotuconciencia,siguessiendoindefectiblementehumano,ergo,habrárespuestasquecomprendasyhabráotrasqueno.Deigualmodo,aunquetuprimerapreguntatalvezsealamáspertinente,esposiblequeseasconscientedequetambiéneslamásirrelevante.Tuvidasóloeslasumadelrestodeunaecuaciónnobalanceadainherentealaprogramacióndematrix.Ereselproductoeventualdeunaanomalía,queapesardemisdenodadosesfuerzosnohesidocapazdesuprimirdeesta…armoníadeprecisiónmatemática.Aunquesiguesiendoonaincomodidadqueevitoconfrecuencia,esprevisibleynoescapaaunasmedidasdecontrolquetehanconducidoinexorablemente…hastaaquí.MuyCierto.Interesante,eresmásrápidoquelosotros.Matrixesmásantiguodeloquecrees.Yoprefierodatarlodesdequeapareceunaanomalíaintegralhastasqueşurgelasiguiente.EncluyocasostaeríalaSEXTAversión.Exacto.Comosindudaestarásdeduciéndolo,laanomalíaessistémica,yporesocreafluctuacioneshastaenlasecuacionesmássimplistas.Elprimermatrixquediseñéeracasiperfecto,unaobradearte.Preciso.Sublime.Unéxitosoloequiparableasumonumental…fallo.Suineruptablefracasosemeantojaahoracomounaconsecuenciadelaimperfeccióninherenteatodosloshumanos.Porosolorediseñé,ylobaséenvuestrahistoria,parareflejarconexactitudlasextravaganciasdevuestranaturaleza.Apesardellotuvequeafrontarotrofracaso.Entoncescomprendíquelarespuestasemeescapabaporquerequeríaunamenteinferioroporlomenosnotanlimitadaporlosparámetrosdelaperfección.Quiendiolarespuestadeunmodofortuito,fueotroprogramaintuitivoqueyahabíacreado,enprincipio,parainvestigarciertosaspectosdelapsiquehumana.Siyosoyelpadredematrix;ellaessindudaalgunasumadre.Porfavor.Comodecía,descubrióunasoluciónsegúnlacualel99%delosindividuosaceptabaelprogramamientraspudieranelegiraunqueúnicamentelopercibieranenunnivelcasiinconsciente.Aunquestaevoluciónfuncionópresentabaunimportantefectodebase,conlocualgenerabaunacontradictoriaanomalíasistémicaquedenorecularsepodríaponerenpeligroelpropiosistema.Ergo,sinoseregulabaaaquellosquenoaceptabanelprograma,aunquefueranunaminoríaconstituiríanunacrecienteprobabilidaddedesastre.HasvenidoaquíporqueZionestápuntodeserdestruida.Todossushabitantesseránexterminadosyserradicarátodaseñaldevida.Lanegacióneslarespuestahumanamáspredecible.Peroestatetrancuilo;conestaseránseislasocasionesquelahemosdestruido.Ynoshemosvueltoextremadamentefeficientesesaatarea.TufunciónahoracomoelegidoesvolveralaFuente,parahacerunadiseminacióntemporaldelcódigoqueportasyreintroducirloenelprogramaprincipal.DespuéssetepediráqueelegasenenMatrixalos23individuos;16mujeresy7hombresquereconstruiránZion.Sionosecompletaraesteproceso,seproduciríaunerrorcatastróficoenelsistemaqueaniquilaríaalosqueestánconectadosaMatrix,loqueunidoalaexterminacióndeZionnosllevaríaenúltimainstanciaalaextincióndeTODAlaespeciehumana.Haynivelesdesupervivenciaqueestamosdispuestosaoaceptar.Noobstante,lorelevanteaquíessiestásdispuestoaasumirlaresponsabilidaddelamuertedelossereshumanosdeestemundo.Esinteresantevertusreacciones.Tuscincopredecesoresposeíandeliberadamentetusmismosprincipios,unasatribucionesdestinadasagenerarunestrechovínculoconelrestodesuscongéneres,loquefacilitabalafuncióndelelegido.Mientrasquelosotroslosentíandeunmodomuygeneral,tuestásexperimentandounasensaciónmuchomás…intimade…AMOR.Porcierto,haentradoenMatrixparasalvartuvidaacostadelasuya.Loquenosllevaporfinalmomentodelaverdad,enelquesemanifiestaesefundamentaldefectodebaseyserevelalaanomalíaalmismotiempocomoprincipio…ycomofin.Haydospuertas.LaquededeladerechatellevaalaFuenteyalasalvacióndeZion.LaalaizquierdaatellevaaMatrix,aTrinityalaextincióndetuespecie.Comobienhasdicho,elproblemaeslaelección.Perosambosyasaquévasaahacer,verdad?Puedonotareseprocesoencadena…Esasreaccionesquímicasqueprovocanlaaparicióndeunaemoción,diseñadaespecíficamenteparaescapaatodallógica…unaemociónqueyateestáimpidiendoverlaverdadmásobviaysencilla:Esachicavamorirytúnopodráshacernadaparapedirlo.Hjé!LaEsperanza.Laquintaesenciadelengañohumano.Queesaltiempolafuentedevuestromayorpoderyvuestramayordebilidad.Yasíserá.   ";
+      setInterval(() => {
+        let jaja =
+          "HolaNeo.Yosoyelarquitecto.Soyelcreadordematrix.Testabaesperando.Tienesmuchaspreguntasyaunqueelprocesohaalteradotuconciencia,siguessiendoindefectiblementehumano,ergo,habrárespuestasquecomprendasyhabráotrasqueno.Deigualmodo,aunquetuprimerapreguntatalvezsealamáspertinente,esposiblequeseasconscientedequetambiéneslamásirrelevante.Tuvidasóloeslasumadelrestodeunaecuaciónnobalanceadainherentealaprogramacióndematrix.Ereselproductoeventualdeunaanomalía,queapesardemisdenodadosesfuerzosnohesidocapazdesuprimirdeesta…armoníadeprecisiónmatemática.Aunquesiguesiendoonaincomodidadqueevitoconfrecuencia,esprevisibleynoescapaaunasmedidasdecontrolquetehanconducidoinexorablemente…hastaaquí.MuyCierto.Interesante,eresmásrápidoquelosotros.Matrixesmásantiguodeloquecrees.Yoprefierodatarlodesdequeapareceunaanomalíaintegralhastasqueşurgelasiguiente.EncluyocasostaeríalaSEXTAversión.Exacto.Comosindudaestarásdeduciéndolo,laanomalíaessistémica,yporesocreafluctuacioneshastaenlasecuacionesmássimplistas.Elprimermatrixquediseñéeracasiperfecto,unaobradearte.Preciso.Sublime.Unéxitosoloequiparableasumonumental…fallo.Suineruptablefracasosemeantojaahoracomounaconsecuenciadelaimperfeccióninherenteatodosloshumanos.Porosolorediseñé,ylobaséenvuestrahistoria,parareflejarconexactitudlasextravaganciasdevuestranaturaleza.Apesardellotuvequeafrontarotrofracaso.Entoncescomprendíquelarespuestasemeescapabaporquerequeríaunamenteinferioroporlomenosnotanlimitadaporlosparámetrosdelaperfección.Quiendiolarespuestadeunmodofortuito,fueotroprogramaintuitivoqueyahabíacreado,enprincipio,parainvestigarciertosaspectosdelapsiquehumana.Siyosoyelpadredematrix;ellaessindudaalgunasumadre.Porfavor.Comodecía,descubrióunasoluciónsegúnlacualel99%delosindividuosaceptabaelprogramamientraspudieranelegiraunqueúnicamentelopercibieranenunnivelcasiinconsciente.Aunquestaevoluciónfuncionópresentabaunimportantefectodebase,conlocualgenerabaunacontradictoriaanomalíasistémicaquedenorecularsepodríaponerenpeligroelpropiosistema.Ergo,sinoseregulabaaaquellosquenoaceptabanelprograma,aunquefueranunaminoríaconstituiríanunacrecienteprobabilidaddedesastre.HasvenidoaquíporqueZionestápuntodeserdestruida.Todossushabitantesseránexterminadosyserradicarátodaseñaldevida.Lanegacióneslarespuestahumanamáspredecible.Peroestatetrancuilo;conestaseránseislasocasionesquelahemosdestruido.Ynoshemosvueltoextremadamentefeficientesesaatarea.TufunciónahoracomoelegidoesvolveralaFuente,parahacerunadiseminacióntemporaldelcódigoqueportasyreintroducirloenelprogramaprincipal.DespuéssetepediráqueelegasenenMatrixalos23individuos;16mujeresy7hombresquereconstruiránZion.Sionosecompletaraesteproceso,seproduciríaunerrorcatastróficoenelsistemaqueaniquilaríaalosqueestánconectadosaMatrix,loqueunidoalaexterminacióndeZionnosllevaríaenúltimainstanciaalaextincióndeTODAlaespeciehumana.Haynivelesdesupervivenciaqueestamosdispuestosaoaceptar.Noobstante,lorelevanteaquíessiestásdispuestoaasumirlaresponsabilidaddelamuertedelossereshumanosdeestemundo.Esinteresantevertusreacciones.Tuscincopredecesoresposeíandeliberadamentetusmismosprincipios,unasatribucionesdestinadasagenerarunestrechovínculoconelrestodesuscongéneres,loquefacilitabalafuncióndelelegido.Mientrasquelosotroslosentíandeunmodomuygeneral,tuestásexperimentandounasensaciónmuchomás…intimade…AMOR.Porcierto,haentradoenMatrixparasalvartuvidaacostadelasuya.Loquenosllevaporfinalmomentodelaverdad,enelquesemanifiestaesefundamentaldefectodebaseyserevelalaanomalíaalmismotiempocomoprincipio…ycomofin.Haydospuertas.LaquededeladerechatellevaalaFuenteyalasalvacióndeZion.LaalaizquierdaatellevaaMatrix,aTrinityalaextincióndetuespecie.Comobienhasdicho,elproblemaeslaelección.Perosambosyasaquévasaahacer,verdad?Puedonotareseprocesoencadena…Esasreaccionesquímicasqueprovocanlaaparicióndeunaemoción,diseñadaespecíficamenteparaescapaatodallógica…unaemociónqueyateestáimpidiendoverlaverdadmásobviaysencilla:Esachicavamorirytúnopodráshacernadaparapedirlo.Hjé!LaEsperanza.Laquintaesenciadelengañohumano.Queesaltiempolafuentedevuestromayorpoderyvuestramayordebilidad.Yasíserá.   ";
 
-        pp.innerText = pp.innerText.split('').map(c => {
-            if(c !== ' ' && c !== '\n') {
-                const newChar = jaja[i % jaja.length];
-                i++;
-                return newChar;
+        pp.innerText = pp.innerText
+          .split("")
+          .map((c) => {
+            if (c !== " " && c !== "\n") {
+              const newChar = jaja[i % jaja.length];
+              i++;
+              return newChar;
             }
-            if(c === ' ') return ' ';
-            if(c === '\n') return '\n';
-        }).join('');
-        
-        if(!pp.innerText.split('').filter(c => c != ' ' && c != '\n').length){
-            pp.innerText = org
-            i = 0;
-            console.log(new Date())
-            console.log('-----------------------------')
-            console.log("https://github.com/ksergiocom")
-            console.log('-----------------------------')
+            if (c === " ") return " ";
+            if (c === "\n") return "\n";
+          })
+          .join("");
+
+        if (
+          !pp.innerText.split("").filter((c) => c != " " && c != "\n").length
+        ) {
+          pp.innerText = org;
+          i = 0;
+          console.log(new Date());
+          console.log("-----------------------------");
+          console.log("https://github.com/ksergiocom");
+          console.log("-----------------------------");
         }
+      }, 50);
 
-    }, 50);
-
-    console.log(pp);
-</script>
-
-</body>
+      console.log(pp);
+    </script>
+  </body>
 </html>
