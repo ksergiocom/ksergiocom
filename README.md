@@ -30,6 +30,6 @@ la IA.
 Así que ya no me vale la pena enseñar
 nada aquí :(
 
-Salvo mi increible ranking de codewars!
+Salvo mi **increible** ranking de **codewars**!
 
-![Codewars](https://www.codewars.com/users/ksergiocom/badges/large)
+![Codewars](https://www.codewars.com/users/ksergiocom/badges/large)](https://www.codewars.com/users/ksergiocom/badges/small)
