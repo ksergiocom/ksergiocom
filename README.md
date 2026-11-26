@@ -21,4 +21,12 @@
 ...................@*@................
 ......................................```
 
-Ahora hasta el más bobo tiene un github petado de cosas gracias a nuestra amiga la IA. Así que ya no me vale la pena enseñar nada aquí :(
+Ahora hasta el más bobo tiene un github
+petado de cosas gracias a nuestra amiga
+la IA.
+
+Así que ya no me vale la pena enseñar
+nada aquí :(
+
+Salvo mi increible ranking de codewars!
+![Codewars](https://www.codewars.com/users/ksergiocom/badges/large)
