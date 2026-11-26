@@ -32,4 +32,4 @@ nada aquí :(
 
 Salvo mi **increible** ranking de **codewars**!
 
-![Codewars](https://www.codewars.com/users/ksergiocom/badges/large)](https://www.codewars.com/users/ksergiocom/badges/small)
+![Codewas Ranking](https://www.codewars.com/users/ksergiocom/badges/small)
