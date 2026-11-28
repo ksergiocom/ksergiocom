@@ -26,8 +26,9 @@
 Debido a la reciente "democratización" de la IA, ahora todo el mundo tiene un portfolio increible desideproyects. En mi opinión esto ha devaluado por completo mi github. Por eso he decidido dejar públicos solo aquellos repositorios que tienen valor sentimental para mí.
 
 ¡Con excepción de mí **increible** ranking de **codewars**!
+
 ![Codewas Ranking](https://www.codewars.com/users/ksergiocom/badges/small)
 
-
+![Frase motivadora](./training.jpg)
 
 *Nota para personas no técnicas:* Es una nota super promedia, hehe.
