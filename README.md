@@ -23,7 +23,7 @@
 ......................................
 ```
 
-Debido a la reciente "democratización" de la IA, ahora todo el mundo tiene un portfolio increible desideproyects. En mi opinión esto ha devaluado por completo mi github. Por eso he decidido dejar públicos solo aquellos repositorios que tienen valor sentimental para mí.
+Debido a la reciente "democratización" de la IA, ahora todo el mundo tiene un portfolio increible lleno de *side-proyects*. En mi opinión esto ha devaluado por completo mi github. Por eso he decidido dejar públicos solo aquellos repositorios que tienen valor sentimental para mí.
 
 ¡Con excepción de mí **increible** ranking de **codewars**!
 
