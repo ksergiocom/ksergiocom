@@ -31,4 +31,4 @@ Debido a la reciente "democratización" de la IA, ahora todo el mundo tiene un p
 
 ![Frase motivadora](./training.jpg)
 
-*Nota para personas no técnicas:* Es una nota super promedia, hehe.
+*Nota para personas no técnicas:* Es un ranking super promedio, hehe.
